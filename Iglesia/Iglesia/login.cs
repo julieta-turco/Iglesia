@@ -243,5 +243,63 @@ namespace Iglesia
             AltaUsuarios Form1 = new AltaUsuarios();
             Form1.Show();
         }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        //private void btnIniciarSesion(object sender, EventArgs e)
+        //{
+
+        //}
+
+        private void btnIniciarSesion_MouseEnter(object sender, EventArgs e)
+        {
+            btnIniciarSesion.ForeColor = Color.White;
+        }
+
+        private void btnIniciarSesion_MouseLeave(object sender, EventArgs e)
+        {
+            btnIniciarSesion.ForeColor = Color.Black;
+
+        }
+
+        private void pbMostrar_Click(object sender, EventArgs e)
+        {
+            pbOcultar.BringToFront();
+            txtPass.PasswordChar = '\0';
+        }
+
+        private void pbOcultar_Click(object sender, EventArgs e)
+        {
+            pbMostrar.BringToFront();
+            txtPass.PasswordChar = '*';
+        }
     }
 }
