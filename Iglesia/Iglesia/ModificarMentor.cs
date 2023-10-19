@@ -413,6 +413,11 @@ namespace Iglesia
             button2.Enabled = false;
             
         }
+
+        private void textBoxCantidad_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
