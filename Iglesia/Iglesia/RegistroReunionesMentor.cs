@@ -80,7 +80,7 @@ namespace Iglesia
             }
             else
             {
-                string consulta = "INSERT INTO reuniones_mentor (id_miembro, id_mentor, fecha_reunion, detalle) VALUES (" + textBoxIDMiembro.Text +", "+ textBoxIDMentor.Text + ", '"+ dateTimePicker1.Value +"', " + "'" + textBoxDetalle.Text +"');";
+                string consulta = "INSERT INTO reuniones_mentor (id_miembro, id_mentor, fecha_reunion, detalle) VALUES (" + textBoxIDMiembro.Text +", "+ textBoxIDMentor.Text + ", '"+ dateTimePicker1.Value +"', " + "'" + richTextBox1.Text +"');";
 
                 using (OleDbCommand comando = new OleDbCommand(consulta, conexion))
                 {
@@ -110,6 +110,11 @@ namespace Iglesia
                     }
                 }
             }
+        }
+
+        private void textBoxDetalle_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

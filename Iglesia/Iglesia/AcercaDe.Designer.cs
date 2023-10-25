@@ -28,6 +28,7 @@ namespace Iglesia
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AcercaDe));
             this.tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.logoPictureBox = new System.Windows.Forms.PictureBox();
             this.labelProductName = new System.Windows.Forms.Label();
@@ -163,12 +164,12 @@ namespace Iglesia
             this.ClientSize = new System.Drawing.Size(652, 435);
             this.Controls.Add(this.tableLayoutPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "AcercaDe";
             this.Padding = new System.Windows.Forms.Padding(14);
-            this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Acerca de";

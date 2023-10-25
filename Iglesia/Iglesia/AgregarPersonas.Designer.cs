@@ -31,7 +31,8 @@ namespace Iglesia
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Iglesia.IglesiaDataSet iglesiaDataSet5 = new Iglesia.IglesiaDataSet();
+            Iglesia.IglesiaDataSet iglesiaDataSet1 = new Iglesia.IglesiaDataSet();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AgregarPersonas));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -53,10 +54,10 @@ namespace Iglesia
             this.checkBox_bautismo = new System.Windows.Forms.CheckBox();
             this.label8 = new System.Windows.Forms.Label();
             this.txt_bautismo = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.textemail = new System.Windows.Forms.TextBox();
             this.textBoxParaID = new System.Windows.Forms.TextBox();
             this.iglesiaDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.label6 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iglesiaDataSetBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -329,6 +330,18 @@ namespace Iglesia
             this.txt_bautismo.TabIndex = 46;
             this.txt_bautismo.Text = "Esta Bautizado?";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.label6.Location = new System.Drawing.Point(4, 48);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(68, 20);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Nombre";
+            // 
             // textemail
             // 
             this.textemail.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -351,20 +364,8 @@ namespace Iglesia
             // 
             // iglesiaDataSetBindingSource
             // 
-            this.iglesiaDataSetBindingSource.DataSource = iglesiaDataSet5;
+            this.iglesiaDataSetBindingSource.DataSource = iglesiaDataSet1;
             this.iglesiaDataSetBindingSource.Position = 0;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.label6.Location = new System.Drawing.Point(4, 48);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(68, 20);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Nombre";
             // 
             // AgregarPersonas
             // 
@@ -376,11 +377,11 @@ namespace Iglesia
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "AgregarPersonas";
-            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Guardar Personas";
             this.Load += new System.EventHandler(this.Agregar_Personas_Load);

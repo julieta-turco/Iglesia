@@ -1,6 +1,6 @@
 ﻿namespace Iglesia
 {
-    partial class Form1
+    partial class Login
     {
         /// <summary>
         /// Variable del diseñador requerida.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.btnIniciarSesion = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.txtPass = new System.Windows.Forms.TextBox();
@@ -140,6 +141,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightSalmon;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
@@ -173,12 +175,13 @@
             this.panel1.Size = new System.Drawing.Size(700, 47);
             this.panel1.TabIndex = 12;
             // 
-            // Form1
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
+            this.CancelButton = this.button1;
             this.ClientSize = new System.Drawing.Size(696, 300);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.linkLabel1);
@@ -191,9 +194,10 @@
             this.Controls.Add(this.btnIniciarSesion);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.ImeMode = System.Windows.Forms.ImeMode.Hiragana;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "Form1";
+            this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Iglesia Adm.";
             this.Load += new System.EventHandler(this.Form1_Load);
