@@ -93,6 +93,12 @@
     <Compile Include="AltaUsuarios.Designer.cs">
       <DependentUpon>AltaUsuarios.cs</DependentUpon>
     </Compile>
+    <Compile Include="paginaprincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paginaprincipal.Designer.cs">
+      <DependentUpon>paginaprincipal.cs</DependentUpon>
+    </Compile>
     <Compile Include="PostulacionesRevisar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -192,6 +198,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modificar_Personas.resx">
       <DependentUpon>Modificar_Personas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paginaprincipal.resx">
+      <DependentUpon>paginaprincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PostulacionesRevisar.resx">
       <DependentUpon>PostulacionesRevisar.cs</DependentUpon>
