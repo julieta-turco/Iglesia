@@ -63,11 +63,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Acerca de...cs">
+    <Compile Include="AcercaDe.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Acerca de...Designer.cs">
-      <DependentUpon>Acerca de...cs</DependentUpon>
+    <Compile Include="AcercaDe.Designer.cs">
+      <DependentUpon>AcercaDe.cs</DependentUpon>
     </Compile>
     <Compile Include="AgregarPersonas.cs">
       <SubType>Form</SubType>
@@ -163,8 +163,8 @@
     <Compile Include="RegistroReunionesMentor.Designer.cs">
       <DependentUpon>RegistroReunionesMentor.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Acerca de...resx">
-      <DependentUpon>Acerca de...cs</DependentUpon>
+    <EmbeddedResource Include="AcercaDe.resx">
+      <DependentUpon>AcercaDe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AgregarPersonas.resx">
       <DependentUpon>AgregarPersonas.cs</DependentUpon>
