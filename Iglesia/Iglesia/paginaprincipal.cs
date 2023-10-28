@@ -26,5 +26,10 @@ namespace Iglesia
         {
 
         }
+
+        private void agregarPersonasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -409,7 +409,11 @@ namespace Iglesia
             checkBoxSI.Checked = false;
             buttonPostular.Enabled = false;
         }
-        
+
+        private void textApellido_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
     

@@ -313,6 +313,11 @@ namespace Iglesia
             Form1.Show();
         
         }
+
+        private void textBoxCantidad_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
