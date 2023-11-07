@@ -125,7 +125,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "AltaMinisterios";
-            this.Text = "AltaMinisterios";
+            this.Text = "Ministerios";
             ((System.ComponentModel.ISupportInitialize)(this.DGVMini)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

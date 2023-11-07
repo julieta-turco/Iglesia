@@ -137,12 +137,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </Compile>
-    <Compile Include="GestionarPersonas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GestionarPersonas.Designer.cs">
-      <DependentUpon>GestionarPersonas.cs</DependentUpon>
-    </Compile>
     <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -160,6 +154,18 @@
     </Compile>
     <Compile Include="PostularADiscipulado.Designer.cs">
       <DependentUpon>PostularADiscipulado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PPmentor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PPmentor.Designer.cs">
+      <DependentUpon>PPmentor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PPTesoreria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PPTesoreria.Designer.cs">
+      <DependentUpon>PPTesoreria.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -207,6 +213,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PostularADiscipulado.resx">
       <DependentUpon>PostularADiscipulado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PPmentor.resx">
+      <DependentUpon>PPmentor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PPTesoreria.resx">
+      <DependentUpon>PPTesoreria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

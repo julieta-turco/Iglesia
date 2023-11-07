@@ -29,6 +29,7 @@ namespace Iglesia
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ModificarMentor));
             this.label1 = new System.Windows.Forms.Label();
             this.DGV1 = new System.Windows.Forms.DataGridView();
             this.label2 = new System.Windows.Forms.Label();
@@ -305,6 +306,7 @@ namespace Iglesia
             this.Controls.Add(this.label2);
             this.Controls.Add(this.DGV1);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "ModificarMentor";
             this.Text = "ModificarMentor";

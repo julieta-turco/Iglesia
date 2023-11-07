@@ -53,7 +53,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 24);
+            this.label1.Location = new System.Drawing.Point(22, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(260, 29);
             this.label1.TabIndex = 0;
@@ -63,7 +63,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 77);
+            this.label2.Location = new System.Drawing.Point(23, 78);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(230, 20);
             this.label2.TabIndex = 1;
@@ -71,7 +71,7 @@
             // 
             // textBoxDNI
             // 
-            this.textBoxDNI.Location = new System.Drawing.Point(248, 80);
+            this.textBoxDNI.Location = new System.Drawing.Point(261, 75);
             this.textBoxDNI.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxDNI.Name = "textBoxDNI";
             this.textBoxDNI.Size = new System.Drawing.Size(160, 26);
@@ -79,7 +79,7 @@
             // 
             // buttonBuscar
             // 
-            this.buttonBuscar.Location = new System.Drawing.Point(439, 77);
+            this.buttonBuscar.Location = new System.Drawing.Point(442, 74);
             this.buttonBuscar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonBuscar.Name = "buttonBuscar";
             this.buttonBuscar.Size = new System.Drawing.Size(84, 29);
@@ -92,7 +92,7 @@
             // 
             this.labelNombreMiembro.AutoSize = true;
             this.labelNombreMiembro.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNombreMiembro.Location = new System.Drawing.Point(62, 137);
+            this.labelNombreMiembro.Location = new System.Drawing.Point(23, 140);
             this.labelNombreMiembro.Name = "labelNombreMiembro";
             this.labelNombreMiembro.Size = new System.Drawing.Size(69, 20);
             this.labelNombreMiembro.TabIndex = 4;
@@ -102,7 +102,7 @@
             // 
             this.labelApellido.AutoSize = true;
             this.labelApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelApellido.Location = new System.Drawing.Point(314, 137);
+            this.labelApellido.Location = new System.Drawing.Point(275, 140);
             this.labelApellido.Name = "labelApellido";
             this.labelApellido.Size = new System.Drawing.Size(69, 20);
             this.labelApellido.TabIndex = 5;
@@ -110,25 +110,25 @@
             // 
             // textBoxNombre
             // 
-            this.textBoxNombre.Location = new System.Drawing.Point(66, 161);
+            this.textBoxNombre.Location = new System.Drawing.Point(27, 164);
             this.textBoxNombre.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxNombre.Name = "textBoxNombre";
-            this.textBoxNombre.Size = new System.Drawing.Size(206, 26);
+            this.textBoxNombre.Size = new System.Drawing.Size(205, 26);
             this.textBoxNombre.TabIndex = 3;
             // 
             // textBoxApellido
             // 
-            this.textBoxApellido.Location = new System.Drawing.Point(318, 161);
+            this.textBoxApellido.Location = new System.Drawing.Point(279, 164);
             this.textBoxApellido.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxApellido.Name = "textBoxApellido";
-            this.textBoxApellido.Size = new System.Drawing.Size(160, 26);
+            this.textBoxApellido.Size = new System.Drawing.Size(205, 26);
             this.textBoxApellido.TabIndex = 4;
             // 
             // labelIDMentor
             // 
             this.labelIDMentor.AutoSize = true;
             this.labelIDMentor.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelIDMentor.Location = new System.Drawing.Point(685, 139);
+            this.labelIDMentor.Location = new System.Drawing.Point(646, 142);
             this.labelIDMentor.Name = "labelIDMentor";
             this.labelIDMentor.Size = new System.Drawing.Size(92, 20);
             this.labelIDMentor.TabIndex = 8;
@@ -136,17 +136,17 @@
             // 
             // textBoxIDMentor
             // 
-            this.textBoxIDMentor.Location = new System.Drawing.Point(689, 161);
+            this.textBoxIDMentor.Location = new System.Drawing.Point(650, 164);
             this.textBoxIDMentor.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxIDMentor.Name = "textBoxIDMentor";
-            this.textBoxIDMentor.Size = new System.Drawing.Size(80, 26);
+            this.textBoxIDMentor.Size = new System.Drawing.Size(109, 26);
             this.textBoxIDMentor.TabIndex = 7;
             // 
             // labelFechaReu
             // 
             this.labelFechaReu.AutoSize = true;
             this.labelFechaReu.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelFechaReu.Location = new System.Drawing.Point(62, 208);
+            this.labelFechaReu.Location = new System.Drawing.Point(23, 211);
             this.labelFechaReu.Name = "labelFechaReu";
             this.labelFechaReu.Size = new System.Drawing.Size(122, 20);
             this.labelFechaReu.TabIndex = 10;
@@ -154,10 +154,10 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(66, 232);
+            this.dateTimePicker1.Location = new System.Drawing.Point(27, 235);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(308, 26);
+            this.dateTimePicker1.Size = new System.Drawing.Size(295, 26);
             this.dateTimePicker1.TabIndex = 6;
             // 
             // labelDetalle
@@ -175,7 +175,7 @@
             this.buttonGuardar.BackColor = System.Drawing.Color.YellowGreen;
             this.buttonGuardar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.YellowGreen;
             this.buttonGuardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.buttonGuardar.Location = new System.Drawing.Point(300, 424);
+            this.buttonGuardar.Location = new System.Drawing.Point(261, 427);
             this.buttonGuardar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonGuardar.Name = "buttonGuardar";
             this.buttonGuardar.Size = new System.Drawing.Size(108, 64);
@@ -187,7 +187,7 @@
             // buttonCancelar
             // 
             this.buttonCancelar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.buttonCancelar.Location = new System.Drawing.Point(481, 424);
+            this.buttonCancelar.Location = new System.Drawing.Point(442, 427);
             this.buttonCancelar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonCancelar.Name = "buttonCancelar";
             this.buttonCancelar.Size = new System.Drawing.Size(108, 64);
@@ -199,7 +199,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(548, 137);
+            this.label3.Location = new System.Drawing.Point(509, 140);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(103, 20);
             this.label3.TabIndex = 16;
@@ -207,17 +207,17 @@
             // 
             // textBoxIDMiembro
             // 
-            this.textBoxIDMiembro.Location = new System.Drawing.Point(552, 161);
+            this.textBoxIDMiembro.Location = new System.Drawing.Point(513, 164);
             this.textBoxIDMiembro.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxIDMiembro.Name = "textBoxIDMiembro";
-            this.textBoxIDMiembro.Size = new System.Drawing.Size(80, 26);
+            this.textBoxIDMiembro.Size = new System.Drawing.Size(109, 26);
             this.textBoxIDMiembro.TabIndex = 5;
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(141, 276);
+            this.richTextBox1.Location = new System.Drawing.Point(137, 279);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(664, 129);
+            this.richTextBox1.Size = new System.Drawing.Size(629, 129);
             this.richTextBox1.TabIndex = 8;
             this.richTextBox1.Text = "";
             // 
@@ -227,7 +227,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.buttonCancelar;
-            this.ClientSize = new System.Drawing.Size(842, 518);
+            this.ClientSize = new System.Drawing.Size(810, 518);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.textBoxIDMiembro);
             this.Controls.Add(this.label3);

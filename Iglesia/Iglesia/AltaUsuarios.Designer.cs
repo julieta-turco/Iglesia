@@ -176,7 +176,7 @@
             // checkBoxAltaUser
             // 
             this.checkBoxAltaUser.AutoSize = true;
-            this.checkBoxAltaUser.Location = new System.Drawing.Point(395, 341);
+            this.checkBoxAltaUser.Location = new System.Drawing.Point(385, 341);
             this.checkBoxAltaUser.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBoxAltaUser.Name = "checkBoxAltaUser";
             this.checkBoxAltaUser.Size = new System.Drawing.Size(51, 24);

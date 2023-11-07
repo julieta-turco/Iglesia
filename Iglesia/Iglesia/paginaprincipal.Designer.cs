@@ -30,7 +30,6 @@ namespace Iglesia
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(paginaprincipal));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.personasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.agregarPersonasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modificarPersonasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -41,30 +40,15 @@ namespace Iglesia
             this.revisarPostuladosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.altaMentoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modificarMentoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mentoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reunionesDeMentoriasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.postulacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ministeriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.altaMinisteriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tesoreriaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ingresosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.egresosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.generarInformesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cuenta = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 73);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(714, 577);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
             // 
             // personasToolStripMenuItem
             // 
@@ -117,47 +101,26 @@ namespace Iglesia
             // altaUsuariosToolStripMenuItem
             // 
             this.altaUsuariosToolStripMenuItem.Name = "altaUsuariosToolStripMenuItem";
-            this.altaUsuariosToolStripMenuItem.Size = new System.Drawing.Size(261, 34);
+            this.altaUsuariosToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.altaUsuariosToolStripMenuItem.Text = "Alta usuarios";
             // 
             // revisarPostuladosToolStripMenuItem
             // 
             this.revisarPostuladosToolStripMenuItem.Name = "revisarPostuladosToolStripMenuItem";
-            this.revisarPostuladosToolStripMenuItem.Size = new System.Drawing.Size(261, 34);
+            this.revisarPostuladosToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.revisarPostuladosToolStripMenuItem.Text = "Revisar Postulados";
             // 
             // altaMentoresToolStripMenuItem
             // 
             this.altaMentoresToolStripMenuItem.Name = "altaMentoresToolStripMenuItem";
-            this.altaMentoresToolStripMenuItem.Size = new System.Drawing.Size(261, 34);
+            this.altaMentoresToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.altaMentoresToolStripMenuItem.Text = "Alta mentor";
             // 
             // modificarMentoresToolStripMenuItem
             // 
             this.modificarMentoresToolStripMenuItem.Name = "modificarMentoresToolStripMenuItem";
-            this.modificarMentoresToolStripMenuItem.Size = new System.Drawing.Size(261, 34);
+            this.modificarMentoresToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.modificarMentoresToolStripMenuItem.Text = "Modificar mentor";
-            // 
-            // mentoresToolStripMenuItem
-            // 
-            this.mentoresToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.reunionesDeMentoriasToolStripMenuItem,
-            this.postulacionesToolStripMenuItem});
-            this.mentoresToolStripMenuItem.Name = "mentoresToolStripMenuItem";
-            this.mentoresToolStripMenuItem.Size = new System.Drawing.Size(103, 29);
-            this.mentoresToolStripMenuItem.Text = "Mentores";
-            // 
-            // reunionesDeMentoriasToolStripMenuItem
-            // 
-            this.reunionesDeMentoriasToolStripMenuItem.Name = "reunionesDeMentoriasToolStripMenuItem";
-            this.reunionesDeMentoriasToolStripMenuItem.Size = new System.Drawing.Size(332, 34);
-            this.reunionesDeMentoriasToolStripMenuItem.Text = "Reuniones de mentorias";
-            // 
-            // postulacionesToolStripMenuItem
-            // 
-            this.postulacionesToolStripMenuItem.Name = "postulacionesToolStripMenuItem";
-            this.postulacionesToolStripMenuItem.Size = new System.Drawing.Size(332, 34);
-            this.postulacionesToolStripMenuItem.Text = "Postulaciones de miembros";
             // 
             // ministeriosToolStripMenuItem
             // 
@@ -170,36 +133,8 @@ namespace Iglesia
             // altaMinisteriosToolStripMenuItem
             // 
             this.altaMinisteriosToolStripMenuItem.Name = "altaMinisteriosToolStripMenuItem";
-            this.altaMinisteriosToolStripMenuItem.Size = new System.Drawing.Size(236, 34);
+            this.altaMinisteriosToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.altaMinisteriosToolStripMenuItem.Text = "Alta ministerios";
-            // 
-            // tesoreriaToolStripMenuItem
-            // 
-            this.tesoreriaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ingresosToolStripMenuItem,
-            this.egresosToolStripMenuItem,
-            this.generarInformesToolStripMenuItem});
-            this.tesoreriaToolStripMenuItem.Name = "tesoreriaToolStripMenuItem";
-            this.tesoreriaToolStripMenuItem.Size = new System.Drawing.Size(97, 29);
-            this.tesoreriaToolStripMenuItem.Text = "Tesoreria";
-            // 
-            // ingresosToolStripMenuItem
-            // 
-            this.ingresosToolStripMenuItem.Name = "ingresosToolStripMenuItem";
-            this.ingresosToolStripMenuItem.Size = new System.Drawing.Size(251, 34);
-            this.ingresosToolStripMenuItem.Text = "Ingresos";
-            // 
-            // egresosToolStripMenuItem
-            // 
-            this.egresosToolStripMenuItem.Name = "egresosToolStripMenuItem";
-            this.egresosToolStripMenuItem.Size = new System.Drawing.Size(251, 34);
-            this.egresosToolStripMenuItem.Text = "Egresos";
-            // 
-            // generarInformesToolStripMenuItem
-            // 
-            this.generarInformesToolStripMenuItem.Name = "generarInformesToolStripMenuItem";
-            this.generarInformesToolStripMenuItem.Size = new System.Drawing.Size(251, 34);
-            this.generarInformesToolStripMenuItem.Text = "Generar Informes";
             // 
             // cuenta
             // 
@@ -221,33 +156,40 @@ namespace Iglesia
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.personasToolStripMenuItem,
             this.gestionPastorToolStripMenuItem,
-            this.mentoresToolStripMenuItem,
             this.ministeriosToolStripMenuItem,
-            this.tesoreriaToolStripMenuItem,
             this.cuenta,
             this.acercaDeToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(737, 33);
+            this.menuStrip1.Size = new System.Drawing.Size(744, 33);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(18, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(714, 577);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // paginaprincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(737, 680);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(744, 604);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "paginaprincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MCD gestion";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -265,15 +207,8 @@ namespace Iglesia
         private System.Windows.Forms.ToolStripMenuItem revisarPostuladosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem altaMentoresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem modificarMentoresToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mentoresToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem reunionesDeMentoriasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem postulacionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ministeriosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem altaMinisteriosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tesoreriaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ingresosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem egresosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem generarInformesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cuenta;
         private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
